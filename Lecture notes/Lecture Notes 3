@@ -1,0 +1,24 @@
+<DOCTYYPE html>
+<html lang="en"
+    <head>
+        <meta charset="utf-8"
+        <title>Week 3 Notes</title>
+    </head>
+    <body>
+        <hi>Attributes, Links and Embedding </h1>
+            <a href="#example">Bookmark Link Example</a>
+        <h2>Links</h2>
+        <! -- when you are linking off site you need http -->
+        <a> href="http://www.google.com">This is my link to Google</a>
+        <a href = "www.google.com">This is the BAD link</a>
+        <!-- href is our attribute name and the url is the value -->
+        <h2>pathing</h2>
+        <h3>Pathing to File in Same Directory</h3>
+        <a href=""week2activity.html">Week 2 Notes</a> 
+        <h3>Pathing to File in Another Directory</h3>
+        <a href="../lab01/li-bio.html">Lab 1 Bio</a>
+        <a href="../Lecture notes/Lecture Notes 3"</a>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/salY_Sm6mv4?si=N9xUv829qI3hLEFC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2>images</h2>
+        <img src="../images/Scaryterry2.webp" alt="Scary Terry">
+        
