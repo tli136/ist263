@@ -1,0 +1,14 @@
+    <head>
+        <meta charset=""utf-8">
+        <title> Heading of Scholarship Form</title>
+    </head>
+    <body> 
+        <h1>Heading of Scholarship Form</h1> 
+        <h2>Table</h2> 
+        <table>
+            <caption>Scholarship Details</caption> 
+            <tr>
+                <th>Name of Scholarship</th> <!-- th tag is for headers/meta -->
+                <th>Amount</th> 
+                <th>Award Date</th>
+            </tr>
