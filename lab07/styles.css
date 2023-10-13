@@ -1,0 +1,23 @@
+h1 {color:#132043;}
+body {background-color:#713ABE;}
+
+a:hover {color:blue;} /*psuedo selector - works on  astae of an element */
+
+body{
+    background-color:#FFF2D8;
+    background-image: url("../Github/linkedinlogobetter.png");
+    background-size: 50%;
+}
+p {
+background-color:#C70039;
+padding: 20px;
+border: 2px solid #eeeeee; 
+}
+nav a {color:#04364A;
+    }
+
+    nav a:hover {background-color:#DAFFFB;
+    }
+    nav {background-color: #98E4FF;
+        padding: 10px;
+    }
