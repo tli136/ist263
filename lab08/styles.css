@@ -22,8 +22,15 @@ nav {background-color: #98E4FF;
     }
 .row1, .row2 {
         display: flex;
+        background-color:#d59b27;
+        border-radius: 1em;
+        padding: 1em;
     }
-.row1 {margin-bottom: 30px;}
- /**.column1, .column2, .column3, .column4 {
+.row1 {margin-bottom: 30px;
+        margin-right: 15px;}
+ .column1, .column2, .column3, .column4 {
         display: flex;
-    }**/
+    }
+    .column4 {
+        margin-left: 15px;;
+    }
