@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:blueviolet; /* Set your desired background color here */
+}
+
+.copyright {
+    font-size: 18px;
+    margin-right: 10px;
+    color: black; /* Text color for copyright notice */
+}
+
+.quote {
+    font-size: 24px;
+    color: red; /* Text color for the quote */
+}
