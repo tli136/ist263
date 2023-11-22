@@ -1,0 +1,46 @@
+/* styles.css */
+
+body {
+    background-color: beige; /* Maroon background */
+    color: red; /* Black text color */
+}
+
+.row1, .row2 {
+    display: flex;
+    background-color: #d59b27;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.row1 {
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+
+.column1, .column2, .column3, .column4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column4 {
+    margin-left: 15px;
+}
+
+.img1 {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        width: 100%;
+        display: block;
+    }
+
+    nav span {
+        display: none;
+    }
+
+    nav a {
+        margin: 8px 0;
+    }
+}
