@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syracuse University</title>
+    <style>
+        #universityText {
+            cursor: pointer;
+            color: black;
+        }
+
+        #universityText:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function changeText() {
+            var universityText = document.getElementById("universityText");
+
+            if (universityText.innerHTML === "Syracuse University") {
+                universityText.innerHTML = "Orange Nation";
+                universityText.style.color = "orange";
+            } else {
+                universityText.innerHTML = "Syracuse University";
+                universityText.style.color = "black";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="universityText" onclick="changeText()">Syracuse University</div>
+</body>
+</html>
