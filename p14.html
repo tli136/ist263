@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Modal</title>
+    <style>
+        #modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            width: 300px;
+        }
+        h1 {
+            font-family: 'Roboto', sans-serif; /* Use the specified Google Font */
+        }
+    </style>
+    <script>
+        function openModal() {
+            document.getElementById("modal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("modal").style.display = "none";
+        }
+    </script>
+
+</head>
+<body>
+    <h1>Join Subscription</h1>
+    <p>Explore our collection of amazing cars!</p>
+    
+    
+    <button onclick="openModal()">View Car Details</button>
+
+    <div id="modal">
+        <h2>Car Details</h2>
+        <form>
+            <label for="make">Make:</label>
+            <input type="text" id="make" name="make"><br>
+            
+            <label for="model">Model:</label>
+            <input type="text" id="model" name="model"><br>
+
+            <label for="year">Year:</label>
+            <input type="text" id="year" name="year"><br>
+
+            <label for="color">Color:</label>
+            <input type="text" id="color" name="color"><br>
+
+            <input type="submit" class="button" value="More Details">
+        </form>
+        <button onclick="closeModal()">Close Modal</button>
+    </div>
+</body>
+</html>
