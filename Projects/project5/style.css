@@ -9,7 +9,7 @@ body {
 .row1,
 .row2 {
   display: flex;
-  background-color: #d59b27;
+  background-color: black;
   border-radius: 1em;
   padding: 1em;
 }
