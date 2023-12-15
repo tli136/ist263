@@ -40,6 +40,7 @@ h1 {
 }
 nav a {
   text-decoration: underline;
+  color: white;
 }
 nav a:hover {
   color: aquamarine;
